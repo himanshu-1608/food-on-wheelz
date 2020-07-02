@@ -21,7 +21,7 @@
     <string name="am2t2">locationimage</string>
     <string name="ast1">Name (Min. 3 characters)</string>
     <string name="ast2">Delivery Address</string>
-    <string name="ast3">Password (Min. 5 characters)</string>
+    <string name="ast3">Password (Min. 6 characters)</string>
     <string name="ast4">Confirm Password</string>
     <string name="ast5">Register</string>
     <string name="open_drawer">Open Drawer</string>

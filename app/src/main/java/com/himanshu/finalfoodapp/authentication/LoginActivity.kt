@@ -115,7 +115,7 @@ class LoginActivity : AppCompatActivity() {
                     startActivity(intent)
                     finish()
                 } else {
-                    Toast.makeText(this@LoginActivity,obj.getString("errorMessage"),Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@LoginActivity,"Maybe you don't have an account!",Toast.LENGTH_SHORT).show()
                 }
             } catch (e : Exception) {
                 Toast.makeText(this@LoginActivity,"OOPS!! Some Error Occurred",Toast.LENGTH_SHORT).show()

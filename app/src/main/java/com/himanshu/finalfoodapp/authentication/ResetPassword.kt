@@ -122,7 +122,7 @@ class ResetPassword : AppCompatActivity() {
                 return false
             }
             passwordText.length <= 4 -> {
-                etPassword.error = "Use a strong password(Min. Length 5)"
+                etPassword.error = "Use a strong password(Min. Length 6)"
                 etPassword.requestFocus()
                 return false
             }

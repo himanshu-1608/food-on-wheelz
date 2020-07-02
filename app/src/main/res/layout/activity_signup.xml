@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".authentication.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="7dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@string/am2t1"
+            android:src="@drawable/ic_person" />
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="4dp"
+            android:autofillHints="Name"
+            android:background="@android:color/transparent"
+            android:hint="@string/ast1"
+            android:inputType="textPersonName"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="7dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@string/aft5"
+            android:src="@drawable/ic_email" />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="4dp"
+            android:autofillHints="Email"
+            android:background="@android:color/transparent"
+            android:hint="@string/aft6"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="7dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@string/aft3"
+            android:src="@drawable/ic_phone" />
+
+        <EditText
+            android:id="@+id/etphone"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="4dp"
+            android:autofillHints="Phone Number"
+            android:background="@android:color/transparent"
+            android:hint="@string/aft4"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="7dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@string/am2t2"
+            android:src="@drawable/ic_location" />
+
+        <EditText
+            android:id="@+id/etlocation"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="4dp"
+            android:autofillHints="Location"
+            android:background="@android:color/transparent"
+            android:hint="@string/ast2"
+            android:inputType="textPostalAddress" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp"
+        android:weightSum="20"
+        android:paddingVertical="7dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="25dp"
+            android:contentDescription="@string/alt1"
+            android:src="@drawable/ic_password" />
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="0dp"
+            android:layout_weight="17"
+            android:layout_height="25dp"
+            android:layout_marginStart="4dp"
+            android:autofillHints="Password"
+            android:background="@android:color/transparent"
+            android:hint="@string/ast3"
+            android:inputType="numberPassword" />
+
+        <ImageView
+            android:id="@+id/imgeye1"
+            android:src="@drawable/ic_visible"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/f7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp"
+        android:weightSum="20"
+        android:paddingVertical="7dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="25dp"
+            android:contentDescription="@string/alt1"
+            android:src="@drawable/ic_password" />
+
+        <EditText
+            android:id="@+id/etconfirmpass"
+            android:layout_width="0dp"
+            android:layout_weight="17"
+            android:layout_height="25dp"
+            android:layout_marginStart="4dp"
+            android:autofillHints="Confirm Password"
+            android:background="@android:color/transparent"
+            android:hint="@string/ast4"
+            android:inputType="numberPassword" />
+
+        <ImageView
+            android:id="@+id/imgeye2"
+            android:src="@drawable/ic_visible"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/f7" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:text="@string/ast5"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:background="@color/colorPrimaryDark"/>
+</LinearLayout>

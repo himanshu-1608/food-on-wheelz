@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".navigationFragments.FaqFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/fragfaqt1"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/fragfaqt2"/>
+
+        <TextView
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/fragfaq3"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/fragfaq4"/>
+
+        <TextView
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/fragfaq5"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/fragfaq7"/>
+
+        <TextView
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/fragfaq8"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/fragfaq9"/>
+
+        <TextView
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/fragfaq10"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/fragfaq11"/>
+
+        <TextView
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/fragfaq12"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/fragfaq6"/>
+
+    </LinearLayout>
+
+</ScrollView>

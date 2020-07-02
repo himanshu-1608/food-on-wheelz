@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sortA"
+        android:title="@string/mst2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sortB"
+        android:title="@string/mst3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sortC"
+        android:title="@string/mst4"
+        app:showAsAction="never" />
+
+</menu>

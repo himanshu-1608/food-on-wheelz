@@ -7,6 +7,8 @@
 ![License](https://img.shields.io/github/license/himanshu-1608/food-on-wheelz?color=purple)
 ![Completion](https://img.shields.io/badge/Project%20Completion-~100%25-blue)
 
+#### App Installation Link: https://drive.google.com/file/d/1vKQF8YRM4OO5pL173N08jbguHAwodj4H/view?usp=sharing
+
 - Technical Features:
   - Kotlin
   - Login, Signup & Forgot password feature by External APIs(currently handled by INTERNSHALA APIs)

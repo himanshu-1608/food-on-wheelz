@@ -24,6 +24,6 @@ It cotains list of hotels from which you can order any food item(quantity fixed 
 Just tap on any hotel, select items you wanna eat & place the order. Order history is also handled by API.
 
 ## Screenshots:
-<img src="./app/Screenshots/LoginActivity.jpg" width="190px" height="360px"/> <img src="./app/Screenshots/NavDrawer.jpg" width="190px" height="360px"/> <img src="./app/Screenshots/HomeFrag.jpg" width="190px" height="360px"/>
-<img src="./app/Screenshots/ItemFrag.jpg" width="190px" height="360px"/> <img src="./app/Screenshots/OrderFrag.jpg" width="190px" height="360px"/>
-<img src="./app/Screenshots/SearchElement.jpg" width="190px" height="360px"/> <img src="./app/Screenshots/OrderSuccess.jpg" width="190px" height="360px"/>
+<img src="./Screenshots/LoginActivity.jpg" width="190px" height="360px"/> <img src="./Screenshots/NavDrawer.jpg" width="190px" height="360px"/> <img src="./Screenshots/HomeFrag.jpg" width="190px" height="360px"/>
+<img src="./Screenshots/ItemFrag.jpg" width="190px" height="360px"/> <img src="./Screenshots/OrderFrag.jpg" width="190px" height="360px"/>
+<img src="./Screenshots/SearchElement.jpg" width="190px" height="360px"/> <img src="./Screenshots/OrderSuccess.jpg" width="190px" height="360px"/>

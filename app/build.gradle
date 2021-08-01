@@ -8,7 +8,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.himanshu.finalfoodapp"
+        applicationId "com.thetechsamurai.foodonwheelz"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
